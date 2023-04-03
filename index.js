@@ -1,6 +1,6 @@
 var count = 0;
 var Player1, Player2;
-Player1_name = prompt("Enter The name of the frst Player")
+Player1_name = prompt("Enter The name of the first Player")
 Player2_name = prompt("Enter the name of the second Player")
 document.getElementById('toggle_Player_name').innerHTML = "Pick Your Symbol "+Player1_name;
 
