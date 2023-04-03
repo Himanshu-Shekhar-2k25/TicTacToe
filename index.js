@@ -143,7 +143,7 @@ function checkWin(currBtn, count_draw, player) {
         if(player == 1)
         document.getElementById('result').innerHTML = 'RESULT = '+Player1_name+" 🥇 Wins";
         else if(player == 2)
-        document.getElementById('result').innerHTML = 'RESULT = '+Player2_name+"🥈 Wins";
+        document.getElementById('result').innerHTML = 'RESULT = '+Player2_name+"🥇 Wins";
         return;
     }
 }
