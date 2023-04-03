@@ -1,7 +1,7 @@
 var count = 0;
 var Player1, Player2;
-Player1_name = prompt("Enter The name of the frst user")
-Player2_name = prompt("Enter the name of the second user")
+Player1_name = prompt("Enter The name of the frst Player")
+Player2_name = prompt("Enter the name of the second Player")
 document.getElementById('toggle_Player_name').innerHTML = "Pick Your Symbol "+Player1_name;
 
 
@@ -17,6 +17,7 @@ for (var i = 0; i < document.querySelectorAll('button').length; i++) {
         }
         else if (count == 1) {
             Player2 = this.innerHTML;
+            document.getElementById('toggle_Player_name').innerHTML = "Let's Play The Game🎉"
         }
         else if (count >= 2) {
             if (count % 2 == 0)
